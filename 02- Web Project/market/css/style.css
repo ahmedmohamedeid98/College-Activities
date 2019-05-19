@@ -1,0 +1,284 @@
+/*start framework*/
+.special-heading
+{
+    position: relative;
+}
+.special-heading:after
+{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 45px;
+    top: 40px;
+    left: 0;
+    border-bottom: 2px solid black;
+}
+/*end framework*/
+
+/************************** start navbar **************************/
+
+/* main navbar */
+
+.navbar { min-height: 60px;}
+
+/* navbar brand (logo) */
+
+.navbar-inverse .navbar-brand {
+    padding: 30px 30px;
+    font-size: 30px;
+    line-height: 5px;
+    /*color:powderblue;*/
+    background: rgba(2,2,2,0.2);
+}
+
+/* navbar link */
+.navbar-inverse .navbar-nav > li > a
+{
+    /*color: #bbb;*/
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 16px;
+    margin-right: 20px;
+}
+.fa-edit
+{
+    color: white;
+    margin-top: 18px;
+    margin-right: 25px;
+}
+.fa-edit:hover
+{
+    cursor: pointer;
+}
+.navbar-inverse .navbar-brand
+{
+    color: yellow;
+}
+/************************** end navbar **************************/
+/*start header*/
+.header
+{
+    background: url('../imgs/market.jpg') no-repeat top center;
+    background-size: cover;
+    height: 115vh;
+    position: relative;
+    color: #FFF;
+}
+.header .overlay
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(1,1,1,0.4);
+}
+.header .centering-vh
+{
+    margin-top: 25vh; /*view port height*/
+}
+.header h1
+{
+    font-weight: bold;
+    font-size: 60px;
+    margin-top: 150px;
+}
+.header h1 span
+{
+    color: yellow;
+    font-weight: normal;
+}
+.header button
+{
+    background: transparent;   /*no background*/
+    padding: 5px 15px;
+    border: 2px solid #fff;
+    margin-top: 20px;
+    margin-left: 520px;
+}
+/*end header*/
+
+/*start social*/
+.social-media 
+{
+    padding: 10px;
+    box-shadow: -2px -5px 13px #000;
+    padding:50px;
+}
+.social-media i
+{
+    color: #a1a1a1;
+    margin: 20px 15px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    
+}
+.social-media,.fa-facebook:hover{color: #3b5998;}
+.social-media,.fa-twitter:hover{color: #1da1f2;}
+.social-media,.fa-google-plus:hover{color: #dd4b39;}
+.social-media,.fa-pinterest:hover{color: #bd081c;}
+.social-media,.fa-instagram:hover{color: #833ab4;}
+.social-media,.fa-stumbleupon:hover{color: #eb4924;}
+.social-media,.fa-rss:hover{color: #f26522;}
+.social-media h4
+{
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: black;
+}
+.social-media p
+{
+  color: #a1a1a1;
+  line-height: 1.4;
+}
+
+/*end social*/
+
+/*start produt*/
+.product
+{
+    padding: 60px 0;
+    position: relative;
+}
+.product h2
+{
+    margin-left: 100px;
+}
+.product ul
+{
+    padding: 0;
+    margin-top: 50px;
+    margin-left: 100px
+}
+.product ul li
+{
+    display: inline-block;
+    border: 1px solid #D4cccc;
+    padding: 15px;
+    border-radius: 5px;
+    color: #A7A7A7;
+    margin-right: 5px;
+}
+.product .selected
+{
+    background-color:black;
+    border: 1px solid black;
+    color: yellow;
+}
+.product img
+{
+    width: 100%;
+    margin-bottom: 20px;
+}
+/*end product*/
+
+/*start services*/
+
+.services h2
+{
+   margin-top: 70px;
+   margin-bottom: 50px;
+}
+.services .st
+{
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.fa
+{
+    color: yellow;
+}
+.media
+{
+    margin-bottom: 30px;
+}
+/*end services*/
+
+/*start tesimonials*/
+.client
+{
+    height: 400px;
+    background: url(../imgs/client.jpg) no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    position: relative;
+    margin-bottom: 40px;
+    margin-top: 60px;
+    font-size: 22px;
+}
+.client .overlay
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(1,1,1,0.6);
+}
+.client h2
+{
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
+.client p
+{
+    margin-bottom: 60px;
+}
+/*end testimonials*/
+/*start contact-us*/
+.contact-us
+{
+    padding: 80px 0;
+}
+.contact-us .contact-desc
+{
+    color: #a9aaac;
+    font-size: 17px;
+    margin-bottom: 40px;
+}
+.contact-us form input[type="text"],
+.contact-us form input[type="email"]
+{
+    margin-bottom: 20px;
+}
+.contact-us form textarea
+{
+    height: 177px;
+}
+.contact-us button
+{
+    background-color: black;
+    color: #fff;
+    font-weight: bold;
+    padding: 8px 20px;
+    border-radius: 8px;
+    border: 2px solid #fff;
+    margin:30px auto;
+    font-size: 16px;
+    display: block;
+}
+
+/*end contact-us*/
+
+/*start footer*/
+.footer
+{
+    background-color: black;
+    color: #fff;
+    margin-top: 40px;
+}
+.footer .pst 
+{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.footer ul 
+{
+    list-style: none;
+    padding: 0;
+}
+.footer .copy
+{
+    margin-top: 120px;
+}
+/*end footer*/

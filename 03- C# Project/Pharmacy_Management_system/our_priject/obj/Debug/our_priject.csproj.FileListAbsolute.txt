@@ -1,0 +1,17 @@
+E:\Main Folder\1-C#\our_priject\our_priject\bin\Debug\our_priject.exe.config
+E:\Main Folder\1-C#\our_priject\our_priject\bin\Debug\our_priject.exe
+E:\Main Folder\1-C#\our_priject\our_priject\bin\Debug\our_priject.pdb
+E:\Main Folder\1-C#\our_priject\our_priject\obj\Debug\our_priject.csprojResolveAssemblyReference.cache
+E:\Main Folder\1-C#\our_priject\our_priject\obj\Debug\our_priject.Form1.resources
+E:\Main Folder\1-C#\our_priject\our_priject\obj\Debug\our_priject.Form2.resources
+E:\Main Folder\1-C#\our_priject\our_priject\obj\Debug\our_priject.Form3.resources
+E:\Main Folder\1-C#\our_priject\our_priject\obj\Debug\our_priject.Form4.resources
+E:\Main Folder\1-C#\our_priject\our_priject\obj\Debug\our_priject.Form5.resources
+E:\Main Folder\1-C#\our_priject\our_priject\obj\Debug\our_priject.Form6.resources
+E:\Main Folder\1-C#\our_priject\our_priject\obj\Debug\our_priject.Properties.Resources.resources
+E:\Main Folder\1-C#\our_priject\our_priject\obj\Debug\our_priject.csproj.GenerateResource.Cache
+E:\Main Folder\1-C#\our_priject\our_priject\obj\Debug\our_priject.exe
+E:\Main Folder\1-C#\our_priject\our_priject\obj\Debug\our_priject.pdb
+E:\Main Folder\1-C#\our_priject\our_priject\obj\Debug\our_priject.Form7.resources
+E:\Main Folder\1-C#\our_priject\our_priject\bin\Debug\Pharmacy.accdb
+E:\Main Folder\1-C#\our_priject\our_priject\obj\Debug\our_priject.Form8.resources
